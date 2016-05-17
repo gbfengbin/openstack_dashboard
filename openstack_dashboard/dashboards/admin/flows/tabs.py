@@ -43,6 +43,7 @@ class MyflowsTab(tabs.TableTab):
 #                 self.request,
 #                 search_opts={'marker': marker, 'paginate': F})
 #             myflows = json.loads(flows)
+#
         except Exception:
             self._has_more = False
             error_message = _('Unable to get FLOWS')
